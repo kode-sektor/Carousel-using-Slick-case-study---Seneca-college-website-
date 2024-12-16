@@ -9,3 +9,9 @@ Here is a list of each carousel slide:
 ![image](https://github.com/user-attachments/assets/7d742013-d367-4234-834e-8e747934c62e)
 ![image](https://github.com/user-attachments/assets/955568d8-0d24-4a04-8f45-300c0644ba94)
 
+A video showcasing Seneca's college website as of 8th December, 2024):
+
+
+https://github.com/user-attachments/assets/f6d529cb-3461-41e5-8f27-1551c53932f5
+
+

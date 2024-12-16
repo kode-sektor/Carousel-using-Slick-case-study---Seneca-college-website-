@@ -62,12 +62,11 @@ body, html {
 
 /* STYLING THE CAROUSEL */
 .carousel-inner {
-    height: 500px;
     border: thin solid brown;
 }
 .carousel-item {
     width: inherit;
-    height: inherit;
+    min-height: 500px;
     padding-top: 30px;
     border: thin solid pink;
 }
@@ -78,15 +77,15 @@ body, html {
     text-decoration: none;
     color: #fff;
 }
-.carousel-item:first-child {
+/* .carousel-item:first-child {
     background-image: url('./img/slider-img-1.jpg');
 }
-.carousel-item:first-child {
+.carousel-item:nth-child(2) {
     background-image: url('./img/slider-img-2.jpg');
 }
-.carousel-item:first-child {
+.carousel-item:nth-child(3) {
     background-image: url('./img/slider-img-3.jpg');
-}
+} */
 .carousel-item header {
     margin-left: 10%;
     width: 650px;
@@ -106,4 +105,26 @@ body, html {
 }
 .carousel-item header p {
     font-size: 1.2em;
+}
+
+/* The arrows */
+.slick-prev {
+    left: 100px;
+}
+.slick-next {
+    right: 100px;
+}
+.slick-prev::before {
+    content: url('./icons/chevron-left.png');
+    color: white;
+}
+.slick-next::before {
+    content: url('./icons/chevron-right.png');
+}
+.slick-next::before, .slick-prev::before {
+    opacity: 1;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
 }
